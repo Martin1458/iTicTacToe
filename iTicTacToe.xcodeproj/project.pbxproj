@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BC0C4FF2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BA27B892F8464EE00B24272 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA27B882F8464EE00B24272 /* Launch Screen.storyboard */; };
+		5BA27B8A2F8464EE00B24272 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA27B882F8464EE00B24272 /* Launch Screen.storyboard */; };
+		5BC0C4FF2F47C9D9005EECC5 /* iTicTacToe.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5BDE86702F4AAF3700B1289C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC0C5032F47C9D9005EECC5 /* Messages.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				5BC0C4FF2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex in Embed Foundation Extensions */,
+				5BC0C4FF2F47C9D9005EECC5 /* iTicTacToe.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,8 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5BC0C4F52F47C9D6005EECC5 /* iTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iTicTacToe MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA27B882F8464EE00B24272 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5BC0C4F52F47C9D6005EECC5 /* iTicTacToe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTicTacToe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iTicTacToe.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC0C5032F47C9D9005EECC5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -82,6 +85,7 @@
 		5BC0C4EE2F47C9D6005EECC5 = {
 			isa = PBXGroup;
 			children = (
+				5BA27B882F8464EE00B24272 /* Launch Screen.storyboard */,
 				5BC0C4F72F47C9D6005EECC5 /* iTicTacToe */,
 				5BC0C5052F47C9D9005EECC5 /* iTicTacToe MessagesExtension */,
 				5BC0C5022F47C9D9005EECC5 /* Frameworks */,
@@ -92,8 +96,8 @@
 		5BC0C4F62F47C9D6005EECC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BC0C4F52F47C9D6005EECC5 /* iTicTacToe.app */,
-				5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex */,
+				5BC0C4F52F47C9D6005EECC5 /* iTicTacToe App.app */,
+				5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +133,7 @@
 			packageProductDependencies = (
 			);
 			productName = iTicTacToe;
-			productReference = 5BC0C4F52F47C9D6005EECC5 /* iTicTacToe.app */;
+			productReference = 5BC0C4F52F47C9D6005EECC5 /* iTicTacToe App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5BC0C4FD2F47C9D9005EECC5 /* iTicTacToe MessagesExtension */ = {
@@ -151,7 +155,7 @@
 			packageProductDependencies = (
 			);
 			productName = "iTicTacToe MessagesExtension";
-			productReference = 5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe MessagesExtension.appex */;
+			productReference = 5BC0C4FE2F47C9D9005EECC5 /* iTicTacToe.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +166,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2640;
-				LastUpgradeCheck = 2640;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					5BC0C4F42F47C9D6005EECC5 = {
 						CreatedOnToolsVersion = 26.4;
@@ -197,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA27B892F8464EE00B24272 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA27B8A2F8464EE00B24272 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +250,7 @@
 				DEVELOPMENT_TEAM = BBR4774LB4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iTicTacToe MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "iTicTacToe Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = iTicTacToe;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -254,7 +260,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martin.iTicTacToe.MessagesExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTicTacToe;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -278,7 +284,7 @@
 				DEVELOPMENT_TEAM = BBR4774LB4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iTicTacToe MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "iTicTacToe Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = iTicTacToe;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,7 +294,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martin.iTicTacToe.MessagesExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTicTacToe;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -362,6 +368,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -419,6 +426,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -433,12 +441,12 @@
 				DEVELOPMENT_TEAM = BBR4774LB4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = iTicTacToe;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martin.iTicTacToe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) App";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -457,12 +465,12 @@
 				DEVELOPMENT_TEAM = BBR4774LB4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = iTicTacToe;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martin.iTicTacToe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) App";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
