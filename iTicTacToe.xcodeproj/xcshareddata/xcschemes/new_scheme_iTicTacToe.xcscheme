@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BC0C4F42F47C9D6005EECC5"
-               BuildableName = "iTicTacToe.app"
+               BuildableName = "iTicTacToe App.app"
                BlueprintName = "iTicTacToe"
                ReferencedContainer = "container:iTicTacToe.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5BC0C4FD2F47C9D9005EECC5"
-               BuildableName = "iTicTacToe MessagesExtension.appex"
+               BuildableName = "iTicTacToe.appex"
                BlueprintName = "iTicTacToe MessagesExtension"
                ReferencedContainer = "container:iTicTacToe.xcodeproj">
             </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BC0C4FD2F47C9D9005EECC5"
-            BuildableName = "iTicTacToe MessagesExtension.appex"
+            BuildableName = "iTicTacToe.appex"
             BlueprintName = "iTicTacToe MessagesExtension"
             ReferencedContainer = "container:iTicTacToe.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5BC0C4FD2F47C9D9005EECC5"
-            BuildableName = "iTicTacToe MessagesExtension.appex"
+            BuildableName = "iTicTacToe.appex"
             BlueprintName = "iTicTacToe MessagesExtension"
             ReferencedContainer = "container:iTicTacToe.xcodeproj">
          </BuildableReference>
